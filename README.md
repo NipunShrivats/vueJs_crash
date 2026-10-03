@@ -1,42 +1,17 @@
-# ./
+# Vue js
 
-This template should help get you started developing with Vue 3 in Vite.
+## 1. Template Syntax
 
-## Recommended IDE Setup
+In Vue.js, template syntax is the way you write HTML that Vue can dynamically render and update based on your data.
+ex:-
+{{}}
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 2. Attribute Binding (v-bind)
 
-## Recommended Browser Setup
+Use v-bind or the shorthand : to bind HTML attributes dynamically.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+':' is the shorthand for v-bind
 
-## Type Support for `.vue` Imports in TS
+## 3. v-model
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+creates two-way data binding between a form input and a Vue data property.
