@@ -9,6 +9,7 @@ import Props from "./Props.vue";
 import TemplateSyntax from "./TemplateSyntax.vue";
 import VBind from "./VBind.vue";
 import VModel from "./VModel.vue";
+import LifeCycleHooks from "./LifeCycleHooks.vue";
 
 //
 const message = ref("");
@@ -26,8 +27,11 @@ function handleNotify(msg: string) {
   <Methods />
   <Events />
   <Props name="LALA" email="lala.23@gmail.com" />
+  <!--  -->
   <EmitingEvents @notify="handleNotify" />
   <p v-if="message">{{ message }}</p>
+  <!--  -->
+  <LifeCycleHooks />
 </template>
 
 <style scoped></style>

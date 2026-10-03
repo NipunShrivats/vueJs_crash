@@ -38,3 +38,8 @@ Pass Data from parent to children
 ## 9. Emiting events
 
 Child to parent connetion
+
+## Life cycle hooks
+
+Special functios triggered at diffgerent stages of components life
+ex:- mounted(), created()
