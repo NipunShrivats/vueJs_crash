@@ -42,4 +42,33 @@ Child to parent connetion
 ## Life cycle hooks
 
 Special functios triggered at diffgerent stages of components life
-ex:- mounted(), created()
+ex:-
+
+```
+Create Component
+      ↓
+beforeCreate()
+      ↓
+created()
+      ↓
+beforeMount()
+      ↓
+mounted()
+      ↓
+Data Changes
+      ↓
+beforeUpdate()
+      ↓
+updated()
+      ↓
+Component Removed
+      ↓
+beforeUnmount() / beforeDestroy()
+      ↓
+unmounted() / destroyed()
+```
+
+## reactive Data - track and update automatically
+
+ref() - used for premitive values
+recative() - used for objects/arrays
